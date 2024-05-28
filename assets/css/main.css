@@ -1,11 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300");
 
-/*
-	Locus by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -85,7 +80,8 @@ input, select, textarea {
 	body {
 		background-color: #23141f;
 		background-attachment: scroll,							fixed;
-		background-image: url("images/overlay1.png"), url("../../images/bg.jpg");
+		background: rgb(0,56,184);
+		background: linear-gradient(79deg, rgba(0,56,184,1) 28%, rgba(255,255,255,0.59) 58%, rgba(0,56,184,1) 79%);
 		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -122,7 +118,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #689aa0 !important;
+			color: rgb(255, 222, 89)!important;
 			text-decoration: none;
 		}
 
@@ -140,6 +136,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		/* Text color */
 		color: #ffffff;
 		font-weight: 300;
 		letter-spacing: 0.25em;
@@ -1822,7 +1819,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #689aa0;
+			border-color:rgb(255, 222, 89);
 		}
 
 	select {
@@ -1926,7 +1923,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #689aa0;
+			border-color: rgb(255, 222, 89);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2023,17 +2020,17 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image:before {
-			background: url("images/overlay2.png");
-			content: '';
+		/* .image:before { */
+			/* background: url("images/overlay2.png"); */
+			/* content: '';
 			height: 100%;
-			left: 0;
-			opacity: 0.5;
-			position: absolute;
+			left: 0; */
+			/* opacity: 0.5; */
+			/* position: absolute;
 			top: 0;
 			width: 100%;
 			z-index: 1;
-		}
+		} */
 
 		.image.left {
 			float: left;
@@ -2048,7 +2045,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 60%;
 		}
 
 			.image.left img, .image.right img {
@@ -2432,8 +2429,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #689aa0;
-			border-color: #689aa0 !important;
+			background-color: rgb(255, 222, 89);
+			border-color: rgb(255, 222, 89) !important;
 			color: #ffffff !important;
 		}
 
@@ -2542,7 +2539,7 @@ input, select, textarea {
 			height: 100%;
 			overflow: hidden;
 			position: relative;
-			width: 45%;
+			width: 60%;
 		}
 
 			.main.style2 > section .image img {
@@ -2627,9 +2624,9 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
-
-		#header:before {
-			background: #689aa0;
+/* Header icon */
+		/* #header:before {
+			background: rgb(255, 222, 89);
 			content: '';
 			display: block;
 			height: 8em;
@@ -2638,9 +2635,9 @@ input, select, textarea {
 			position: absolute;
 			top: -6em;
 			width: 4em;
-		}
+		} */
 
-		#header:after {
+		/* #header:after {
 			-moz-transform: rotate(45deg);
 			-webkit-transform: rotate(45deg);
 			-ms-transform: rotate(45deg);
@@ -2654,7 +2651,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0.615em;
 			width: 2.8em;
-		}
+		} */
 
 		#header > header {
 			padding: 8em 3em 6em 3em;
@@ -2746,12 +2743,13 @@ input, select, textarea {
 
 	#banner {
 		background-color: #2a2b2e;
-		background-image: url("images/overlay2.png"), url("../../images/banner.jpg");
+		/* background-image: url("images/banner.jpg"); */
+		background-image: url("#"), url("../../images/thumbs/01.jpg");
 		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
+		/* background-repeat: repeat,							no-repeat; */
 		background-size: auto,							cover;
 		border-top: 0 !important;
-		color: #cacacb;
+		/* color: #cacacb; */
 		padding: 6em 3em;
 		text-align: center;
 	}
