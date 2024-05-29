@@ -80,8 +80,11 @@ input, select, textarea {
 	body {
 		background-color: #23141f;
 		background-attachment: scroll,							fixed;
-		background: rgb(0,56,184);
-		background: linear-gradient(79deg, rgba(0,56,184,1) 28%, rgba(255,255,255,0.59) 58%, rgba(0,56,184,1) 79%);
+		/* background: rgb(255,222,89); */
+		/* background: rgb(0,56,184); */
+		/* background: linear-gradient(79deg, rgba(0,56,184,1) 28%, rgba(255,255,255,0.59) 58%, rgba(0,56,184,1) 79%); */
+		background: rgb(255,222,89);
+		background: linear-gradient(79deg, rgba(255,222,89,1) 33%, rgba(255,255,255,1) 99%);
 		background-position: top left,						top center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
@@ -2045,7 +2048,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 60%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2538,7 +2541,7 @@ input, select, textarea {
 			height: 100%;
 			overflow: hidden;
 			position: relative;
-			width: 60%;
+			width: 40%;
 		}
 
 			.main.style2 > section .image img {
