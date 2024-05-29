@@ -2020,17 +2020,17 @@ input, select, textarea {
 			display: block;
 		}
 
-		/* .image:before { */
-			/* background: url("images/overlay2.png"); */
-			/* content: '';
-			height: 100%;
-			left: 0; */
-			/* opacity: 0.5; */
-			/* position: absolute;
-			top: 0;
-			width: 100%;
-			z-index: 1;
-		} */
+		/* .image:before { */ */
+			/* background: url("images/overlay2.png"); */ */
+			/* content: ''; */
+			/* height: 100%; */
+			/* left: 0; */ */
+			/* opacity: 0.5; */ */
+			/* position: absolute; */ */
+			/* top: 0; */
+			/* width: 100%; */
+			/* z-index: 1; */
+		/* } */
 
 		.image.left {
 			float: left;
@@ -2514,18 +2514,17 @@ input, select, textarea {
 			}
 
 	.main.style2 > section {
-		border-top: solid 1px #313032;
 		height: 17em;
 		margin: 0 0 4em 0;
-		padding: 4em 0 0 0;
+		padding: 2em 0 0 0;
 		position: relative;
 		width: 100%;
 	}
 
 		.main.style2 > section:first-of-type {
 			border-top: 0;
-			height: 13em;
-			padding-top: 0;
+			height: 17em;
+			padding-top: 4em;
 		}
 
 		.main.style2 > section:after {
