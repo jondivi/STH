@@ -2023,18 +2023,6 @@ input, select, textarea {
 			display: block;
 		}
 
-		/* .image:before { */ */
-			/* background: url("images/overlay2.png"); */ */
-			/* content: ''; */
-			/* height: 100%; */
-			/* left: 0; */ */
-			/* opacity: 0.5; */ */
-			/* position: absolute; */ */
-			/* top: 0; */
-			/* width: 100%; */
-			/* z-index: 1; */
-		/* } */
-
 		.image.left {
 			float: left;
 			margin: 0 1.5em 1em 0;
@@ -2048,7 +2036,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 60%;
 		}
 
 			.image.left img, .image.right img {
@@ -2541,7 +2529,7 @@ input, select, textarea {
 			height: 100%;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 60%;
 		}
 
 			.main.style2 > section .image img {
